@@ -1,8 +1,8 @@
 var friendsList = [
   {
       name: "Leonardo DiCaprio",
-      url: "http://d17zbv0kd7tyek.cloudfront.net/wp-content/uploads/2015/06/leonardo-dicaprio-fb.jpg",
-      answers: [
+      photo: "http://d17zbv0kd7tyek.cloudfront.net/wp-content/uploads/2015/06/leonardo-dicaprio-fb.jpg",
+      preferences: [
           5,
           5,
           5,
@@ -17,8 +17,8 @@ var friendsList = [
   },
   {
       name: "Dwayne Johnson",
-      url: "https://peopledotcom.files.wordpress.com/2017/10/the-rock-1.jpg",
-      answers: [
+      photo: "https://peopledotcom.files.wordpress.com/2017/10/the-rock-1.jpg",
+      preferences: [
           1,
           2,
           1,
@@ -33,8 +33,8 @@ var friendsList = [
   },
   {
       name: "Kobe Bryant",
-      url: "https://www.marshall.usc.edu/sites/default/files/2018-02/kobe_bryant_head_shot_1.jpg",
-      answers: [
+      photo: "https://www.marshall.usc.edu/sites/default/files/2018-02/kobe_bryant_head_shot_1.jpg",
+      preferences: [
           1,
           3,
           3,
@@ -49,8 +49,8 @@ var friendsList = [
   },
   {
       name: "Robert Downey Jr.",
-      url: "https://i.pinimg.com/originals/f3/25/b8/f325b8c1b62e5f5cbda6632bb6828d74.jpg",
-      answers: [
+      photo: "https://i.pinimg.com/originals/f3/25/b8/f325b8c1b62e5f5cbda6632bb6828d74.jpg",
+      preferences: [
           2,
           2,
           4,
@@ -65,8 +65,8 @@ var friendsList = [
   },
   {
       name: "Beyonce",
-      url: "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU0MTU0MTc3NzkzMTA3MzU1/beyonce-attends-tidal-x-1015-on-october-15-2016-in-new-york-city-photo-by-theo-wargogetty-images-for-tidal-sqaure.jpg",
-      answers: [
+      photo: "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU0MTU0MTc3NzkzMTA3MzU1/beyonce-attends-tidal-x-1015-on-october-15-2016-in-new-york-city-photo-by-theo-wargogetty-images-for-tidal-sqaure.jpg",
+      preferences: [
           4,
           4,
           2,
@@ -81,4 +81,4 @@ var friendsList = [
   }
 ]
 
-module.exports = friendsList
+module.exports = friendsList;
